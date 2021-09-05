@@ -12,25 +12,10 @@ def reverseDLL(head):
     pre = None
     
     while cur:
+        pre = cur.prev
+        cur.prev = cur.next
         cur.next = pre
-        cur.prev =cur.next
-        pre = cur
         if cur.prev:
             cur = cur.prev
         else:
             return cur
-    
-# Above is not correct
-
-def reverse(self):
-  temp = None
-  current = self.head
-  
-  while current is not None:
-    temp = current.prev
-    current.prev = current.next
-    current.next = temp
-    current = current.prev
- 
-  if temp is not None:
-    self.head = temp.prev
