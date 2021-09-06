@@ -1,3 +1,4 @@
+'''
 # Node Class:
 class Node:
     def _init_(self,val):
@@ -12,4 +13,7 @@ class Solution:
         if not root:
             return 0
         
-        return max(self.height(root.left)+1 , self.height(root.right)+1) 
+        left = self.height(root.left)
+        right = self.height(root.right)
+        
+        return max(left , right) + 1
