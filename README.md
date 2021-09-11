@@ -17,4 +17,10 @@ Day-6 : 6
 <br>
 Day-7 : 7
 <br>
+<br>
+<br>
+Week - 1 : 87
+<br>
+<br>
+<br>
 Day-8 : 12
