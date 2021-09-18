@@ -1,6 +1,6 @@
 # Final-450-with-Python
 <br>
-Total = 131/450
+Total = 135/450
 <br>
 <br>
 Day-1 : 18
@@ -34,3 +34,13 @@ Day-11 : 2
 Day-12 : 7
 <br>
 Day-13 : 2
+<br>
+Day-14 : 1
+<br>
+<br>
+<br>
+Week - 2 : 45
+<br>
+<br>
+<br>
+Day-15 : 3
