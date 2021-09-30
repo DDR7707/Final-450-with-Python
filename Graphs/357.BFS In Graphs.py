@@ -60,3 +60,25 @@ print ("Following is Breadth First Traversal"
                   " (starting from vertex 2)")
 g.BFS(2)
  
+
+ 
+ 
+ 
+ 
+ class Solution:
+    
+    #Function to return Breadth First Traversal of given graph.
+    def bfsOfGraph(self, V, adj):
+        # code here
+        visited = [0]*(V+1)
+        final = []
+        que = [0]
+        while que:
+            temp = que.pop(0)
+            final.append(temp)
+            visited[temp] = 1
+            for k in adj[temp]:
+                if visited[k] == 0:
+                    que.append(k)
+                    visited[k] = 1
+        return final     
