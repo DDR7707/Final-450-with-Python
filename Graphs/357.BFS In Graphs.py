@@ -70,7 +70,7 @@ class Solution:
     #Function to return Breadth First Traversal of given graph.
     def bfsOfGraph(self, V, adj):
         # code here
-        visited = [0]*(V+1)
+        visited = [0]*(V)
         final = []
         que = [0]
         visited[0] = 1
