@@ -65,7 +65,7 @@ g.BFS(2)
  
  
  
- class Solution:
+class Solution:
     
     #Function to return Breadth First Traversal of given graph.
     def bfsOfGraph(self, V, adj):
@@ -73,10 +73,10 @@ g.BFS(2)
         visited = [0]*(V+1)
         final = []
         que = [0]
+        visited[0] = 1
         while que:
             temp = que.pop(0)
             final.append(temp)
-            visited[temp] = 1
             for k in adj[temp]:
                 if visited[k] == 0:
                     que.append(k)
