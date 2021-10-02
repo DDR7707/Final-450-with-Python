@@ -26,7 +26,7 @@ def journeyToMoon(n, astronaut):
             
     for i,j in astronaut:      
         union(i,j,parent , rank) 
-    
+    # A*B + A*C + A*D + B*C + B*D + C*D = A*B + (A+B)*C + (A+B+C)*D
     final = [0 for i in range(n)]
     for i in parent:
         final[find(i,parent)] += 1
